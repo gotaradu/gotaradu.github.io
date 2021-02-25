@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<title>Model X</title>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+
+body {
+    margin: 0;
+    font-family: Lato;
+    font-size: 17px;
+}
+
+#myVideo {
+   
+    right: 10px;
+    bottom: 10px;
+    min-width: 100%; 
+    min-height: 100%;
+}
+
+.content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+
+#myBtn {
+    width: 400px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+#myBtn:hover {
+    background: #ddd;
+    color: black;
+}
+</style>
+
+<body>
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">TESLA</a>
+    <a href="ModelS.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Model S</a>
+    <a href="ModelX.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Model X</a>
+    <a href="Model3.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Model 3</a>
+    <a href="Roadster.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Roadster</a>
+	<a href="SINGUP.html"  class="w3-button w3-grey w3-padding-large w3-large w3-margin-top w3-hover-white w3-display-bottomright">SING UP</a>
+  </div>
+</div>
+
+<video autoplay muted loop id="myVideo">
+  <source src="video2.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
+
+<div class="content">
+  <h1>Detalii</h1>
+  <p>Modelul X este cel mai sigur model de pe piata, cel mai potritiv atat pentru o masina sport cat si pentru una de familie, cu o tractiune 4X4, dar si 7 locuri.</p>
+  <p>Modelul X are cea mai mare cameră de depozitare a oricărui SUV din clasa sa, scaune confortabile pentru până la șapte adulți și capacitatea de a tracta până la 5.000 kg. Ușile Falcon Wing sunt echipate cu senzori pentru a monitoriza apropierea împrejurimilor și pot fi deschise chiar și în cele mai strânse locuri de parcare</p>
+  <p>Modelul X vă poate duce oriunde doriți - cu o gamă de vârf din industrie și opțiuni convenabile de încărcare, în întreaga lume.</p>
+  <p>Funcția de pilot automat Autopilot este concepută pentru a vă ajuta cu cele mai împovărătoare părți ale conducerii. Modelul X vine standard cu un hardware avansat capabil să ofere astăzi funcții Autopilot Enhanced și capabilități complete de auto-conducere în viitor.</p>
+  <p>Tesla oferă performanțe de neegalat în toate condițiile meteorologice, cu Dual Motor All-Wheel Drive, reacția instantanee și accelerarea cea mai rapidă a oricărui SUV pe șosea - de la zero la 60 mph în 2,9 secunde.</p>
+  <div class="w3-center"><p>Powered by Gota Radu</a></p></div>
+</div>
+
+<script>
+var video = document.getElementById("myVideo");
+var btn = document.getElementById("myBtn");
+
+function myFunction() {
+  if (video.paused) {
+    video.play();
+    btn.innerHTML = "Pause";
+  } else {
+    video.pause();
+    btn.innerHTML = "Play";
+  }
+}
+</script>
+
+
+  
+</body>
+</html>

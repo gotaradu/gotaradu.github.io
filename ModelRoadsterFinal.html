@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<title>Roadster</title>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+
+body {
+    margin: 0;
+    font-family: Lato;
+    font-size: 17px;
+	background-color: black;
+}
+
+#myVideo {
+   
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+}
+
+</style>
+
+<body>
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">TESLA</a>
+    <a href="ModelS.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Model S</a>
+    <a href="ModelX.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Model X</a>
+    <a href="Model3.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Model 3</a>
+    <a href="Roadster.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Roadster</a>
+	<a href="SINGUP.html"  class="w3-button w3-grey w3-padding-large w3-large w3-margin-top w3-hover-white w3-display-bottomright">SING UP</a>
+  </div>
+</div>
+
+<video autoplay muted loop id="myVideo">
+  <source src="video5.mp4" type="video/mp4">
+</video>
+
+<div class="content w3-cellpadding w3-gray w3-padding-64 ">
+  <h1>Specificatii</h1>
+  <div id="specs">
+    <ul>
+      <li>
+        <div class="title">Acceleratie 0-60&nbsp;<em class="measurement-unit">mph</em></div>
+        <div class="value">1.9 sec</div>
+      </li>
+              <li>
+          <div class="title">Acceleratie 0-100&nbsp;<em class="measurement-unit">mph</em></div>
+          <div class="value">4.2&nbsp;sec</div>
+        </li>
+            <li>
+        <div class="title">Acceleratie 1/4&nbsp;<em class="measurement-unit">mile</em></div>
+        <div class="value">8.8&nbsp;sec</div>
+      </li>
+      <li>
+        <div class="title">Viteza Maxima</div>
+        <div class="value">Over&nbsp;250&nbsp;mph</div>
+      </li>
+      <li>
+        <div class="title">Toarcere</div>
+        <div class="value">10,000&nbsp;Nm</div>
+      </li>
+      <li>
+        <div class="title">Autonomie</div>
+        <div class="value">620&nbsp;miles</div>
+      </li>
+      <li>
+        <div class="title">Locuri</div>
+        <div class="value">4</div>
+      </li>
+      <li>
+        <div class="title">Tractiune</div>
+        <div class="value">4x4</div>
+      </li>
+    </ul>
+  </div>
+ </div>
+  <div class="w3-center"><p>Powered by Gota Radu</a></p></div>
+
+
+<script>
+var video = document.getElementById("myVideo");
+var btn = document.getElementById("myBtn");
+
+function myFunction() {
+  if (video.paused) {
+    video.play();
+    btn.innerHTML = "Pause";
+  } else {
+    video.pause();
+    btn.innerHTML = "Play";
+  }
+}
+</script>
+
+
+  
+</body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<title>Model 3</title>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+
+body {
+    margin: 0;
+    font-family: Lato;
+    font-size: 17px;
+}
+
+#myVideo {
+   
+    right: 10px;
+    bottom: 10px;
+    min-width: 100%; 
+    min-height: 100%;
+}
+
+.content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+
+#myBtn {
+    width: 400px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+#myBtn:hover {
+    background: #ddd;
+    color: black;
+}
+</style>
+
+<body>
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">TESLA</a>
+    <a href="ModelS.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Model S</a>
+    <a href="ModelX.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Model X</a>
+    <a href="Model3.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Model 3</a>
+    <a href="Roadster.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Roadster</a>
+	<a href="SINGUP.html"  class="w3-button w3-grey w3-padding-large w3-large w3-margin-top w3-hover-white w3-display-bottomright">SING UP</a>
+  </div>
+</div>
+
+<video autoplay muted loop id="myVideo">
+  <source src="video4.mp4" type="video/mp4">
+</video>
+
+<div class="content">
+  <h1>Detalii</h1>
+  <p>Modelul Tesla 3 este un sedan central cu dimensiuni medii, electric, cu patru uși, fabricat și vândut de Tesla, Inc. Potrivit oficialilor Tesla, modelul standard Model 3 oferă o gamă electrică cu o putere totală de 220 de mile (354 km) și modelul cu rază lungă de acțiune oferă o distanță de 500 de kilometri.  Modelul 3 are un tablou de bord minimalist, cu un singur ecran tactil LCD montat pe centru.</p>
+  <p>Tesla a afirmat că modelul 3 are un echipament complet de auto-conducere care poate fi activat opțional la o dată ulterioară</p>
+  <p>
+În 2013, șeful de design Franz von Holzhausen a declarat că modelul 3 va fi "un model Audi A4, BMW Seria 3, un tip de vehicul Mercedes-Benz C-Class care va oferi totul: gamă, accesibilitate și performanță". tehnologia de la Modelul S va fi utilizată în modelul 3, dar va fi cu 20% mai mică decât aceasta și va avea propriul său design unic. Potrivit CTO-ului Tesla, JB Straubel, în octombrie 2015, majoritatea inginerilor Tesla lucrau mai degrabă pe 3 decât pe S sau X. Deoarece mașinile electrice au nevoi de răcire mai mici decât autovehiculele cu combustie, modelul 3 nu are sau nu are nevoie de o grila față. După proiectarea finală a primului model 3, orice alte modificări vor fi incluse în versiunile viitoare. Acoperișul de sticlă opțional dezvoltat de Tesla Glass va fi fabricat din același geam folosit pentru plăcile de acoperis Tesla; un model de S a introdus un acoperiș de sticlă la sfârșitul anului 2016.</p>
+  <div class="w3-center"><p>Powered by Gota Radu</a></p></div>
+</div>
+
+<script>
+var video = document.getElementById("myVideo");
+var btn = document.getElementById("myBtn");
+
+function myFunction() {
+  if (video.paused) {
+    video.play();
+    btn.innerHTML = "Pause";
+  } else {
+    video.pause();
+    btn.innerHTML = "Play";
+  }
+}
+</script>
+
+
+  
+</body>
+</html>

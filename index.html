@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<title>Masini Tesla</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+
+body {
+    margin: 0;
+    font-family: Lato;
+    font-size: 17px;
+}
+
+#myVideo {
+   
+    right: 10px;
+    bottom: 10px;
+    min-width: 100%; 
+    min-height: 100%;
+}
+
+.content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+
+#myBtn {
+    width: 400px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+#myBtn:hover {
+    background: #ddd;
+    color: black;
+}
+</style>
+
+<body>
+
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">TESLA</a>
+    <a href="ModelS.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Model S</a>
+    <a href="ModelX.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Model X</a>
+    <a href="Model3.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Model 3</a>
+    <a href="Roadster.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Roadster</a>
+	<a href="SINGUP.html"  class="w3-button w3-grey w3-padding-large w3-large w3-margin-top w3-hover-white w3-display-bottomright">SING UP</a>
+  </div>
+</div>
+<video autoplay muted loop id="myVideo">
+  <source src="video7.mp4" type="video/mp4">
+</video>
+<div class="w3-display-middle">
+  <a href="#a"><i style="font-size:100px" class="fa">&#xf1b9;</i></button></a>
+    
+    
+  </div>
+
+
+<div id="a" class="w3-content w3-display-container w3-black">
+  <img class="mySlides" src="img2.jpg" style="width:100%">
+  <img class="mySlides" src="img3.jpg" style="width:100%">
+  <img class="mySlides" src="img7.jpg" style="width:100%">
+  <img class="mySlides" src="img14.jpg" style="width:100%">
+  <img class="mySlides" src="img19.jpg" style="width:100%">
+
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+  
+</header>
+
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1 id="istorie">Istorie</h1>
+      <h5 class="w3-padding-32">
+	<p>Tesla Motors a aparut in Iulie 2003, finantata de Martin Eberhard si Marc Tarpenning. Amandoi au avut un rol activ la startul companiei pana Elon Musk a venit la conducere. Marele tel al companiei este sa comercializeze masini electrice, incepand cu un model sport electric pentru inceput si apoi cat de rapid se poate la masini pentru consumatori, masini sedan si compacte.</p>
+
+	<p>Elon Musk a avut un rol activ in companie si a supravegheat dezvoltarea primului model Roadster pana la cel mai mic detaliu dar nu s-a implicat in operatiunile zilnice financiare; In prima faza, Elon Musk a finantat compania cu 7,5 milioane $, bani personali.</p>
+
+	<p>	De la început, Musk a menținut politica pe termen lung a companiei sa produca la un moment o masina electrica pentru orice om. Musk a primit în 2006 Global Green si 2007 Index Design pentru design-ul Tesla Roadster.</p></h5>
+
+ 
+    </div>
+
+    <div class="w3-third w3-center">
+      <i class="w3-align-right"><img src="img3.jpg"</i>
+    </div>
+  </div>
+</div>
+
+
+<div class="w3-row-padding w3-white w3-padding-64 w3-container w3-cell">
+  <div class="w3-content">
+    <div class=" w3-left">
+      <i class=" w3-padding-64 w3-text-red "><img src="img4.jpg"></i>
+    </div>
+  </div>
+</div>
+    <div class="w3-twothird  w3-container w3-cell w3-white">
+      <h1>Tesla Motors</h1>
+
+      <h5><p><div class="w3-text-black w3-padding-32">Tesla Motors este denumita dupa inginerul electric si fizician Nikola Tesla. Tesla Roadster foloseste un motor electric facut din design-ul lui Tesla din 1882. Tesla Roadster este prima masina a companiei, este prima masina de volum care foloseste baterii cu celule Li-Ion si prima masina de productie care are o autonomie mai mare de 320km.Intre 2008 si 2012, Tesla a vandut mai mult de 2,250 de Roadster in 31 de tari. Tesla a oprit productia Roadster in US in August 2011. Pe 26 marti 2009 , Tesla a prezentat Model S , o masina 100% electrica sedan. In Decembrie 2012, Tesla avea un staff de aproape 3,000 de angajati. In ianuarie 2014 numarul s-a dublat.</div></p></h5>
+	</div>	
+
+
+
+<div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
+    <h1 class="w3-margin w3-xlarge">Quickest Acceleration.Longest Range. The Safest Cars Ever.</h1>
+</div>
+
+<footer class="w3-container w3-padding-64 w3-center w3-opacity">  
+  
+ 
+ <div class="w3-center"><p>Powered by Gota Radu</a></p></div>
+ 
+</footer>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html>
